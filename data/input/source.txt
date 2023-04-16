@@ -1,0 +1,7 @@
+https://www.kaggle.com/datasets/lukebarousse/data-analyst-job-postings-google-search
+https://www.kaggle.com/datasets/rashikrahmanpritom/data-science-job-posting-on-glassdoor
+
+*** additional resources ***
+https://www.kaggle.com/code/davidbroberts/data-science-job-posting-on-glassdoor-eda
+https://www.kaggle.com/code/rashikrahmanpritom/scrapping-glassdoor-job-posts-using-selenium
+https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/README.md
