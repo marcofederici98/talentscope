@@ -1,0 +1,69 @@
+## Microsoft ExcelQ1. Which two functions check for the presence of numerical or nonnumerical characters in cells?- [x] ISNUMBER and ISTEXT- [ ] ISNUMBER and ISALPHA- [ ] ISVALUE AND ISNUMBER- [ ] ISVALUE and ISTEXTQ2. If cell A3 contains the text THE DEATH OF CHIVALRY, what will the function =PROPER(A3) return?- [ ] the death of chivalry- [ ] The death of Chivalry- [ ] THE DEATH OF CHIVALRY- [x] The Death Of ChivalryQ3. Which formula is NOT equivalent to all of the others?- [ ] =A3+A4+A5+A6- [ ] =SUM(A3:A6)- [x] =SUM(A3,A6)- [ ] =SUM(A3,A4,A5,A6)Q4. Which function returns a reference to a cell (or cell range) that is a specified distance from a base cell?- [x] OFFSET- [ ] VLOOKUP- [ ] INDEX- [ ] MATCHQ5. Of the four chart types listed, which works best for summarizing time-based data?- [ ] pie chart- [x] line chart- [ ] XY scatter chart- [ ] bar chartQ6. You want to be able to restrict values allowed in a cell and need to create a drop-down list of values from which users can choose. Which feature should you use?- [ ] Protect Worksheet- [ ] Conditional Formatting- [ ] Allow Users to Edit Ranges- [x] Data ValidationQ7. To round up a value to the nearest increment of your choice, such as the next five cents, what function should you use?- [x] ROUNDUP- [ ] MAX- [ ] ROUND- [ ] CEILINGQ8. Which function returns the largest value amongst all values within the range H2:H30?- [x] =MAX(H2:H30)- [ ] =MAXIMUM(H2:H30)- [ ] =LARGE(H2:H30,29)- [ ] =UPPER(H2:H30,1)Q9. Which formula returns the value in cell A1 of the worksheet named MySheet?- [x] =MySheet!A1- [ ] =MySheet_A1- [ ] =MySheet&A1- [ ] =MySheet@A1Q10. Which formula correctly counts the number of numeric values in both B4:E4 and G4:I4?- [ ] =COUNT(B4:E4&G4:I4)- [x] =COUNT(B4:E4,G4:I4)- [ ] =COUNT(B4:E4 G4:I4)- [ ] =COUNT(B4:I4)Q11. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_.- [ ] mode- [ ] modulus- [ ] average- [x] medianQ12. For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?- [ ] OR(B3=>15,B3<=20)- [x] AND (B3>=15,B3<=20)- [ ] OR(B3>15,B3<20)- [ ] AND(B3>15, B3<20)Q13. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?- [ ] Value Formatting- [ ] Cell Style Formatting- [x] Conditional Formatting- [ ] Tabular formatQ14. What does this formula do? `=Sum(Sheet1:Sheet4!D18)`- [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4- [ ] It adds data from cell A1 of Sheet1 and cell D18 of sheet4- [ ] It adds all data in the range A1:D18 in Sheet1, Sheet2, Sheet3 and Sheet4- [x] It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and Sheet4Q15. How does the appearance of an array formula differ from that of a standard formula?- [ ] In a worksheet cell, array formulas have a small blue triangle in the cell's upper-right corner.- [ ] A heavy border appears around the range that is occupied by the array formula.- [x] In the formula bar, an array formula appears surrounded by curly brackets.- [ ] When a cell that contains an array formula is selected, range finders appear on the worksheet around the formula's precedent cells.Q16. Which function returns TRUE if cell A1 contains a text value?- [ ] =ISALPHA(A1)- [ ] =ISCHAR(A1)- [ ] =ISSTRING(A1)- [x] =ISTEXT(A1)Q17.  An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?- [x] cell values only- [ ] cell values and formats- [ ] cell values and formulas- [ ] cell value, formats, and formulasQ18. Which function returns the number of characters in a text string in cell A1?- [ ] `=RIGHT(A1)-LEFT(A1)+1`- [x] `=LEN(A1)`- [ ] `=EXACT(A1)`- [ ] `=CHARS(A1)`Q19. What is the difference between pressing the delete key and using the clear command in the Home tab's Editing group?- [ ] deletes removes the entire column or row. Clear removes the content from the column or row- [x] deletes removes formulas, values and hyperlinks. clear removes formulas, values, hyperlinks, formats, comments and notes- [ ] Delete removes the cell itself, shifting cells either up or to the left. Clear removes content and properties but does not muves cells- [ ] Delete removes formulas and values. clear removes formulas, values, hyperlinks, formats, comments and notesQ20. How can you drill down into a PivotTable to show details?- [ ] Select the cell into which you want to drill down, right-click, and select _Show Summary_.- [ ] Select the cell into which you want to drill down, right-click and select _Drill-down_.- [x] Select the cell into which you want to drill down and double-click.- [ ] Select the cell into which you want to drill down, right-click and select _Show Details > Summary Page_Q21. What is the output of the formula `=(8+2*3)/2`?
+
+- [ ] 13
+- [ ] 15
+- [ ] 11
+- [x] 7
+
+Q22. What is the default horizontal alignment of text in a cell
+
+- [x] left
+- [ ] bottom
+- [ ] top
+- [ ] right
+
+Q23. Which formula adds 8 and 5 in a cell?
+
+- [ ] `=ADD(8+5)`
+- [ ] 8+5
+- [ ] None of these answers, as you cannot add without a `SUM` function.
+- [x] `=8+5`
+
+Q24. Which feature allows formatting to be automatically added to new columns and rows?
+
+- [ ] AutoFormat
+- [ ] conditional formatting
+- [x] Format as Table
+- [ ] PivotTable
+
+Q25. Which situation will result in a #REF! error?
+
+- [x] The cell referenced in the error message has been deleted
+- [ ] A nonnumeric agument is used in a function when a numeric value is expected
+- [ ] A required operator is omitted in a formula
+- [ ] The formula contains an undefined range
+
+Q26. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
+
+- [ ] Insert Column
+- [ ] Paste Special
+- [x] Insert
+- [ ] Insert Column Left
+
+Q27. You want to define a reusable process to reshape data (removing blank rows, merging columns, etc.). What toold can you use to accomplush this?
+
+- [x] Power Query
+- [ ] Data Analysis
+- [ ] Power Pivot
+- [ ] Data Modeler
+
+Q28. What is the output of the formula `=(8+2*3)/7`?
+
+- [ ] 13
+- [x] 2
+- [ ] 11
+- [ ] 15
+
+Q29. You have a formula in cell A1. You want to display that formula in cell B1. What function can you use in cell B1?
+
+- [ ] TEXT
+- [x] FORMULATEXT
+- [ ] ISFORMULA
+- [ ] ISTEXT
+
+Q30. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
+
+- [ ] NEXT
+- [ ] MAX
+- [x] LARGE
+- [ ] MATCH

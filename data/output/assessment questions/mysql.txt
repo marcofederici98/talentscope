@@ -1,0 +1,192 @@
+Q12. MySQL programs are a set of command-line utilities that are provided with typical MySQL distributions. MySQL is designed to be a database.
+ database and programming
+ user and administrator
+ client and server X
+ syntax and objects
+
+Q13. Which MySQL command shows the structure of a table?
+ INFO table;
+ SHOW table;
+ STRUCTURE table;
+ DESCRIBE table;X
+
+Q15. Which MySQL command modifies data records in a table?
+ UPDATE X
+ MODIFY
+ CHANGE
+ ALTER
+
+Q18. How can you remove a record using MySQL?
+ DELETE
+ DELETE FROM X
+ REMOVE
+ REMOVE FROM
+
+Q21. In SELECT * FROM clients; what does clients represent?
+ a SQL query
+ a SQL statement
+ a database
+ a table X
+Q20. What does the following SQL statement return?
+SELECT * FROM Employees WHERE EmployeeName LIKE 'a%'
+
+ It records in the Employees table where the value in the EmployeeName column doesn’t have an “a”.
+ It records in the Employees table where the value in the EmployeeName column starts with “a”. X
+ It records in the Employees table where the value in the EmployeeName column has an “a”.
+ It records in the Employees table where the value in the EmployeeName column ends with “a”.
+
+Q22. How does MySQL differ from SQL?
+ SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a nonrelational database management system that is used to manage SQL databases.
+ SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a relational database management system that is used to manage SQL databases. X
+ They are not different. MySQL and SQL refer to the same thing.
+ My SQL is a language, and SQL is a software application.
+
+Q23. If you need to order a table of movies by name, which query will work?
+ SELECT * FROM movies GROUP BY name
+ SELECT * FROM movies ORDER BY name X
+ SELECT * FROM movies ORDER TABLE by name
+ SELECT * FROM movies FILTER BY name
+
+Q26. What is the default port for MySQL Server?
+ 25
+ 990
+ 0
+ 3306 X
+
+Q28. What is the difference between DROP and TRUNCATE?
+ They both refer to the same operation of deleting the table completely.
+ They both refer to the same operation of clearing the table, but keeping its definition intact.
+ TRUNCATE deletes table completely, removing its definition as well. DROP clears the table but does not delete the definition.
+ DROP deletes table completely, removing its definition as well. TRUNCATE clears the table but does not delete the definition. X
+
+Q29. How do you select every row in a given table named “inventory”?
+ SELECT all FROM inventory;
+ FROM inventory SELECT all;
+ FROM inventory SELECT *;
+ SELECT * FROM inventory; X
+
+Q30. In an efficiently designed relational database, what does every table have?
+ set of triggers
+ sequential id field
+ minimum of three columns
+ primary key X
+
+Q32. After installing MySQL, it may be necessary to initialize the _ which may be done automatically with some MySQL installation methods.
+ storage engine
+ user accounts
+ grant tables
+ data directory X
+
+Q33. You need to export the data in the customers table into a CSV file, with columns headers in the first row. Which clause do you add to your MySQL command?
+ JOIN
+ WITH HEADERS
+ UNION X
+ WITH COLUMNS
+
+Q43. Which is the correct syntax of an extended insert statement?
+ insert into cars (make, model, year) values (‘Ford’, ‘Mustang’, 2002) (‘Mercedes’, ‘C’, 2003)
+ insert into cars (make, model, year) values (‘Ford’, ‘Mustang’, 2002) values (‘Mercedes’, ‘C’, 2003)
+ insert into cars (make, model, year) extended (‘Ford’, ‘Mustang’, 2002), (‘Mercedes’, ‘C’, 2003)
+ insert into cars (make, model, year) values (‘Ford’, ‘Mustang’, 2002), (‘Mercedes’, ‘C’, 2003) X
+
+Q44. You need to make an exact copy of a table, with all columns and indexes. How can you get all of the information needed to accomplish this?
+ create table
+ clone table
+ insert into
+ show create table X
+
+Q47. You need to run a complex query with recursive subqueries, but without creating a stored procedure or a function. Which command or clause do you use?
+ COLLATE
+ UNION
+ FULL JOIN
+ WITH X
+
+Q48. Which choice is not a processing algorithm for database views?
+ merge
+ updatable X
+ temptable
+ undefined
+
+Q50. How can you list all columns for a given table?
+ SHOW table COLUMNS;
+ SHOW COLUMNS FROM table; X
+ LIST table COLUMNS;
+ SELECT COLUMNS FROM table;
+
+Q51. How would you list the full set of tables in the currently selected database?
+ SELECT * FROM DATABASE;
+ SHOW TABLES; X
+ LIST TABLES;
+ SELECT ALL TABLES;
+
+Q52. Which choice is not one of the table maintenance statements?
+ CHECK TABLE;
+ CREATE TABLE; X
+ ANALYZE TABLE;
+ OPTIMIZE TABLE;
+
+Q54. Management has requested that you build an employee database. You need to include each employee’s current position and salary, as well as all prior positions and salaries with the company. You decide to use a one-to-many structure: an employee table with the main information such as name and address, and an employment table with position and salary history. You can use the employeeID field to connect them. What is employment.employeeID an example of?
+ primary key;
+ secondary key;
+ foreign key; X
+ alternate key;
+
+Q69. What is the product of the database designing phase?
+ all tables, columns, data types, indexes and their relationships X
+ a list of entities, their relationship, and constraints
+ all tables and their names, which are needed to implement the logical model
+ a list of entities, their relationship, constraints, data types, and cardinalities
+
+Q89. The left and right joins are also known as _.
+ Inner Join
+ Natural Join
+ Outer Join X
+ Cartesian Join
+
+Q93. What function finds the current time or date in MySQL?
+ DATE()
+ GETDATE()
+ CURDATE() X
+ CURRENT()
+
+Q102. Which choice is an example of an aggregate function?Which choice is an example of an aggregate function?
+ NOW()
+ MID()
+ FORMAT()
+ COUNT() X
+
+Q110. Which clause is similar to “HAVING” clause in Mysql?
+ SELECT
+ FROM
+ WHERE X
+ None of the mentioned
+
+Q107. “COUNT” keyword belongs to which categories in Mysql?
+ Aggregate functions X
+ Operators“
+ Clauses
+ All of the mentioned`
+
+Q108. Which among the following belongs to an “aggregate function”?
+ COUNT X
+ UPPER`
+ LOWER
+ All of the mentioned
+
+Q104. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
+ UNION ALL
+ UNION X
+ SHOW TOTALS
+ WITH ROLLUP
+
+Q95. The mysqldump command cannot generate output in _.
+ JSON X
+ CSV
+ XML
+ TXT
+
+Q82. A stored routine is a set of SQL statements stored on the server and takes form as either a procedure or a function. Which statement cannot be used inside stored routines?
+ SELECT
+ USE X
+ SET
+ DECLARE

@@ -1,0 +1,214 @@
+Q1. If you want to import just the Component from the React library, what syntax do you use?
+
+- [ ] `import React.Component from 'react'`
+- [ ] `import [ Component ] from 'react'`
+- [ ] `import Component from 'react'`
+- [x] `import { Component } from 'react'`
+
+Q6. What is the testing library most often associated with React?
+
+- [ ] Mocha
+- [ ] Chai
+- [ ] Sinon
+- [x] Jest
+
+Q18. What can you use to handle code splitting?
+
+- [ ] `React.memo`
+- [ ] `React.split`
+- [x] `React.lazy`
+- [ ] `React.fallback`
+
+Q26. Which of these terms commonly describe React applications?
+
+- [x] declarative
+- [ ] integrated
+- [ ] closed
+- [ ] imperative
+
+Q39. What package contains the render() function that renders a React element tree to the DOM?
+
+- [ ] `React`
+- [x] `ReactDOM`
+- [ ] `Render`
+- [ ] `DOM`
+
+Q67. What is `setCount`?
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+- [ ] the initial state value
+- [ ] a variable
+- [ ] a state object
+- [x] a function to update the state
+
+Q43. Which function from React can you use to wrap Component imports to load them lazily?
+
+- [ ] `fallback`
+- [ ] `split`
+- [x] `lazy`
+- [ ] `memo
+
+ Q46. Which answer best describes a function component?
+
+- [ ] A function component is the same as a class component.
+- [x] A function component accepts a single props object and returns a React element.
+- [ ] A function component is the only way to create a component.
+- [ ] A function component is required to create a React component.
+
+Q47. Which library does the `fetch()` function come from?
+
+- [ ] FetchJS
+- [ ] ReactDOM
+- [x] No library. `fetch()` is supported by most browsers.
+- [ ] React
+
+Q56. Which function is used to update state variables in a React class component?
+
+- [ ] `replaceState`
+- [ ] `refreshState`
+- [ ] `updateState`
+- [x] `setState`
+
+Q117. Among The following options, choose the one which helps react for keeping their data uni-directional?
+
+- [ ] DOM
+- [x] flux
+- [ ] JSX
+- [ ] Props
+
+ Q115. Choose the library which is most often associated with react?
+
+- [ ] Chai
+- [ ] Sinon
+- [x] Jest
+- [ ] Mocha
+
+Q116. What of the following is used in React.js to increase performance?
+
+- [ ] Original DOM
+- [x] Virtual DOM
+- [ ] Both of the above
+- [ ] None of the above
+
+Q114. Which company developed ReactJS?
+
+- [ ] Google
+- [x] Meta (ex Facebook)
+- [ ] Apple
+- [ ] Twitter
+
+Q112. Choose the method which is not a part of ReactDOM?
+
+- [ ] ReactDOM.createPortal()
+- [ ] ReactDOM.hydrate()
+- [x] ReactDOM.destroy()
+- [ ] ReactDOM.findDOMnode()
+
+Q110. Choose the method which should be overridden to stop the component from updating?
+
+- [ ] componentDidMount
+- [ ] componentDidUpdate
+- [ ] willComponentUpdate
+- [x] shouldComponentUpdate
+
+Q108. What is the correct way to get a value from context?
+
+- [ ] const value = useContext(MyContext.Consumer)
+- [ ] const value = useContext(MyContext.Provider)
+- [x] const value = useContext(MyContext)
+- [ ] const value = useContext({value: "intiial value"})
+
+
+Q107. Which of the following is required to use React?
+
+- [x] JavaScript
+- [ ] React Router
+- [ ] Redux
+- [ ] Prop-Types
+
+Q104. What is the name of the compiler used to transform JSX into JavaScript?
+
+- [x] Babel
+- [ ] JSX Editor
+- [ ] Browser Buddy
+- [ ] ReactDOM
+
+Q99. Why might you use a React.ref?
+
+- [ ] to refer to another JS file
+- [ ] to bind the function
+- [ ] to call a function
+- [x] to directly access the DOM node
+
+Q96. Which language can you not use with React?
+
+- [x] Swift.
+- [ ] JSX.
+- [ ] Javascipt.
+- [ ] TypeScript.
+
+Q90. You want to disable a button so that it does not emit any events onClick. Which prop do you use to acomplish this?
+
+- [ ] onBlur
+- [ ] onPress
+- [ ] defaultValue
+- [x] disabled
+
+Q89. What syntax do you use to create a component in React?
+
+- [ ] a generator
+- [x] a function or a class
+- [ ] a service worker
+- [ ] a tag
+
+Q83. What is the browser extension called that React developers use to debug applications?
+
+- [x] React Developer Tools
+- [ ] React Tooling Add-on
+- [ ] React Codewatch
+- [ ] React Debug
+
+#### Q84. Which tool is not part of Create React App?
+
+- [ ] React
+- [x] jQuery
+- [ ] webpack
+- [ ] ReactDOM
+
+#### Q85. What is the JavaScript syntax extension that is commonly used to create React elements?
+
+- [ ] HTML
+- [ ] JavaScriptX
+- [x] JSX
+- [ ] React JavaScript
+
+Q81. React is an open-source project but is maintained by which company?
+
+- [ ] Intuit
+- [ ] Twitter
+- [x] Facebook
+- [ ] Snapchat
+
+#### Q82. What command can you use to generate a React project?
+
+- [ ] react-starter
+- [x] create-react-app
+- [ ] react-gen
+- [ ] react-start
+
+Q77. You are rendering a list with React when this warning appears in the console: "Warning: Each child in a list should have a unique 'key' prop." How do you fix this issue?
+
+- [ ] Add a key prop with the same value to each item in the list
+- [ ] Clear the console warnings
+- [ ] Use the UseId hook to generate a unique key for each element in the list
+- [x] When iterating over the list items, add a unique property to each list item.
+
+Q74. What is the first file loaded by the browser in a basic React project?
+
+- [ ] src/App.js
+- [ ] src/index.js
+- [ ] public/manifest.json
+- [x] public/index.html

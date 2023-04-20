@@ -1,0 +1,155 @@
+Q3. To index a field that holds an array value in MongoDB, which index type do you create?
+ partial
+ sparse
+ compound
+ multikey X
+
+Q5. You need to create a document database that supports database triggers. Which NoSQL database should you use?
+ DynamoDB X
+ BigTable
+ Redis
+ MongoDB
+
+Q8. You need to change the shard key of an existing MongoDB collection. What do you do?
+ Dump the collection data, drop the collection, create a new collection and shard key, import the data.
+ Add second shard key and drop the first shard key.
+ Dump the collection data, drop the collection, presplit the data, create a new collection and shard key, import the data. X
+ Drop and recreate the shard key.
+
+Q9. Polyglot storage means using multiple types of what in the same application?
+ Security systems
+ Database systems
+ Storage systems X
+ Query systems
+
+Q10. You need to implement the simplest possible scalable, in-memory cache for your AWS application. Which service do you select?
+ Elasticache using Memcached.
+ DynamoDB.
+ DynamoDB Accelerator (DAX).
+ Elasticache using Redis. X
+
+Q12. Which two characteristics define Amazon Quantum Ledger Database?
+ Key-value data model; transactionally consistent with ACID semantics.
+ Document data model; transactionally consistent with ACID semantics. X
+ Key-value data model; transactions with tunable consistency.
+ Document data model; transactions with tunable consistency.
+
+Q14. Which of these data types should you avoid in designing a Google Bigtable row key?
+ multi-valued identifiers
+ string identifiers
+ timestamps
+ frequently updated identifiers X
+
+Q15. Your startup is building a prototype that has an evolving schema. Your data will be eventually consistent. Your application is hosted in AWS. Which database do you choose?
+ Neptune
+ DocumentDB
+ DynamoDB X
+ Amazon Aurora
+
+Q18. Which statement is preferred Cypher code for Neo4j?
+ MATCH (:Person)–>(:Card)–>(:Company) RETURN count(vehicle)
+ Match (:Person)–>(:Car):(vehicle:Car)–>(:Company) RETURN count(vehicle)
+ MATCH (:Person)–>(vehicle:Car)–>(:Company) RETURN count(vehicle) X
+ MATCH (:Person)–>(:Card), (vehicle:Car)–>(:Company) RETURN count(vehicle)
+
+Q19. You need multi-item ACID transactions with snapshot isolation within a partition for your cloud-based application. Which NoSQL databse do you choose?
+ Bigtable
+ GraphDB
+ DynamoDB
+ Cosmos DB X
+
+Q20. You need to control your application’s batch updates destination for your Bigtable multinode cluster. Which action do you take?
+ Create a custom app profile to route batch updates.
+ Create a custom app profile to route the batch update from that client.
+ Update the default app profile to route the natch update from that client. X
+ Use the default app profile to route batch updates.
+
+Q21. Your query to verify that your Redis key is configured to support expiring user information on a defined interval returns -2, What does this value indicate?
+ The queried key value expired in the last two seconds.
+ The queried key value exists, but has no associated expire value.
+ The queried key value does not exist. X
+ There are two expired keys with this value.
+
+Q22. You are designing a MongoDB schema to support queries that will include lookups. What should you do?
+ Create an index on the key value used as the primary key.
+ Create an index on the key value used as the foreign key.
+ Create a multicolumn index on the key value used as the foreign key and the most unique column in the document. X
+ Create a multicolumn index on the key value used as the primary and also the foreign key.
+
+Q23. What is the aggregation operator for a join concept in MongoDB?
+ $group
+ $match
+ $lookup X
+ $project
+
+Q24. For your mobile application, you need to select a Google cloud databse that can support compound, filtered document queries. Which do you choose?
+ Cloud SQL
+ Cloud Spanner
+ Cloud Firestore X
+ Cloud Firebase
+
+Q27. SQL databases and NoSQL are which types of scalable?
+ horizontally, infinitely
+ vertically, horizontally X
+ vertically, infinitely
+ horizontally, vertically
+
+Q31. You need to store an unordered collection of name-value pairs with differing data types in DynamoDB. Which data type should you choose?
+ map X
+ set
+ list
+ stack
+
+Q36. You want to return a list of all elements in two Redis sets. Which keyword do you use?
+ smembers X
+ returnall
+ sunion
+ sismember
+
+Q37. Which method shows you whether MongoDB uses any indexes when running a query, and how the indexes are used?
+ detailQueryExecution()
+ showPlan()
+ explain() X
+ describe()
+
+Q42. You need to create a scalable database that supports immutable writes. What do you use?
+ A ledger database X
+ A graph database
+ A key-value database
+ A columnstore database
+
+Q43. You need to create a data store for the catalog for your new ecommerce application. Your company is a startup, so the catalog schema may evolve. Which do you choose?
+ Neo4j
+ Redis
+ MySQL
+ MongoDB X
+
+Q44. You need to select a NoSQL database for heavy aggregate query workloads. Which type do you choose?
+ graph
+ key-value
+ document
+ columnstore X
+
+Q45. You need to select a columnstore database that enforce built-in data types. You want to add indexes to improve performance for known workloads. Which do you choose?
+ Cassandra
+ Bigtable
+ Redis X
+ HBase
+
+Q48. You need to create a scalable database to store and query JSON data. What do you use?
+ a relational database
+ a document database X
+ a graph database
+ a ledger database
+
+Q28. You need to create a scalable database that allows you to query data nodes and edges efficiently. What do you use?
+ a relational database
+ a columnstore database
+ a document database
+ a graph database X
+
+Q26. You need to create a pub/sub server. Which database do you use?
+ Neo4j
+ Cassandra
+ Redis X
+ MyS#### QL

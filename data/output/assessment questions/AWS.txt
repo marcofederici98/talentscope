@@ -1,0 +1,157 @@
+----------------------------------------------------------------------------------------
+Q1. You have an application using a 100 GB MySQL database that you are migrating into AWS. What should you consider when deciding between whether to host the database on RDS for MySQL or Aurora?
+ cost
+ ease of maintenance vs. granularity of control
+ all of these answers  X
+ the current storage engine used by the application, such as InnoDB or MyISAM
+----------------------------------------------------------------------------------------
+Q2. Which database is a NoSQL database type that can quickly store and retrieve key-value pairs?
+ Aurora
+ Neptune
+ RDS for MySQL
+ DynamoDB  X
+----------------------------------------------------------------------------------------
+Q3. Your database is an RDS instance running SQL Server with Multi-AZ replication and you have several older .NET console utilities that perform database operations every 15 seconds. When the cluster has to switch the primary database server to the secondary AZ, the .NET utilities start to report connection failures to the database although other applications are able to access the database. How do you correct this problem?
+ Use the RDS console to force a reboot of the database instance so that the primary server becomes the master server again.
+ The server running the .NET utilities is caching the DNS lookup on the database cluster address. Flush the DNS cache of the server and force the C# utilities to open new connections to the database.
+ A.NET application will retain the IP address of a connection string until the host machine is rebooted.
+ The NET utilities need to change the SQL Server endpoint in the connection strings to read from the secondary database server using a try/catch.  X
+----------------------------------------------------------------------------------------
+Q4. What AWS services can help you automate your development pipeline for continuous integration and continuous deployment?
+ CodePipeline
+ CodeDeploy
+ all of these answers X
+ CodeBuild
+----------------------------------------------------------------------------------------
+Q5. Which AWS service complies with the standards outlined in Payment Card Industry Data Security Standard (PCI DSS) Level 1 for the handling and transmission of credit card data?
+ API Gateway
+ all of these answers  X
+ Simple Queue Service (SQS)
+ Kinesis Data Streams
+----------------------------------------------------------------------------------------
+Q6. You have a large amount of files on your network-attached storage array that must be archived and maintained for a period of 10 years due to industry regulations. This data will be infrequently accessed but must be kept What is the best AWS service for storing this data?
+ EFS
+ Snowball
+ OEBS
+ S3 Glacier  X
+----------------------------------------------------------------------------------------
+Q7. For your AWS root account, you have generated a random password of the maximum allowed length and included special characters. Which additional steps should you take to secure your AWS root account?
+ Create an AM role for the account administrator with the highest privileges. Do not store the root password, but when the root account is needed reset the password on the root account via email confirmation and repeat this procedure.
+ Store your randomly generated password in your organizational secrets database using a service such as 1Password or LastPass, and only grant access to this secret to the DevOps team.
+ Create IAM accounts for your administrators and attach the AdministratorAccess policy to their accounts. Disable the root account in the user settings.
+ Create an IAM role for the account administrator with the highest privileges and do not use the root account in day-today operations. Enable two-factor authentication on the root account  X
+----------------------------------------------------------------------------------------
+Q8. Which Elastic Load Balancing option supports Lambda as a target?
+ Network Load Balancer
+ Lambda can not be called directly by incoming web requests. You must use API Gateway.
+ Classic Load Balancer
+ Application Load Balancer  X
+----------------------------------------------------------------------------------------
+Q9. How do you architect a solution for an SQL Server database to be replicated across AWS regions in an active-active architecture?
+ Use RDS for SQL Server and create the same instance in two different regions. Use Database Migration Service to keep each database in sync.
+ Use a VPN or VPC peering to establish a connection between the VPCs in each region. Install SQL Server Enterprise Edition on EC2 instances in each region and configure an Always On availability group.
+ Use RDS for SQL Server 2016 or 2017 Enterprise Edition. Enable Multi-AZ support and select the Mirroring/Always On option. Select another region for the mirroring option. X
+ You can not set up an active-active architecture for SQL Server that spans geographic regions.
+----------------------------------------------------------------------------------------
+Q10. Which AWS service can be used to help generate the documentation required by various compliance standards, such as Payment Card Industry Data Security Standard (PCI DSS) Level 1 for the handling of credit card data?
+ Artifact  X
+ DocumentDB
+ Print out the AWS Compliance summary and keep it with your required documentation for an audit.
+ Secrets Manager
+----------------------------------------------------------------------------------------
+Q12. What in-memory caching server is not supported by ElastiCache?
+ Redis 5
+ Memcached
+ Elasticsearch  X
+ Redis 3
+----------------------------------------------------------------------------------------
+Q17. You need a schemaless database. Which Amazon database service provides that solution?
+ ORDS
+ Aurora
+ Redshift
+ DynamoDB X
+----------------------------------------------------------------------------------------
+Q18. Which communication channel does SNS not support natively?
+ OSMS text message
+ push notification
+ email
+ automated phone call X
+----------------------------------------------------------------------------------------
+Q19. When designing a serverless web application using Lambda, what key concept must you factor into your design?
+ Serverless web applications run within the web browser of the user, so you will need to store any data the user changes directly in a database.
+ Lambda only allows you to write functions in JavaScript.
+ Lambda does not use servers, so it can only return the same request to every user.
+ Lambda is stateless, so it won't remember who a user is in between requests.   X
+----------------------------------------------------------------------------------------
+Q20. A principle of DevOps is to view infrastructure as code. Which AWS service allows you to script your AWS infrastructure?
+ CloudTrail
+ CloudFormation  X
+ AWS Config
+ AWS Service Catalog
+----------------------------------------------------------------------------------------
+Q21. You created a Windows EC2 instance with a public IP address and installed SQL Server. When attempting to connect to SQL Server from SQL Server Enterprise Manager on your local computer, the Windows EC2 instance is unable to establish a connection to the server. What is the first thing you should check?
+ Check the routing tables for the VPC.
+ Verify that the assigned security groups allow TCP port 1433 traffic from your current IP address.  X
+ Check the policies within Windows Firewall.
+ Verify that you are connecting to the instance using a user that is not sa.
+----------------------------------------------------------------------------------------
+Q22. You have a Linux EC2 web server that suddenly is timing out on all HTTP requests and your SSH connection attempts are timing out. You notice that it is failing the system status check in the EC2 console. What action should you take?
+ Restore the instance from the last AMI image. System status checks indicate that the filesystem on the instance is corrupted.  X
+ Stop and start the instance. This will move the instance to another host.
+ Contact AWS support. Failing a system status check indicates a failure in the underlying hardware and must be addressed by an AWS representative.
+ Reboot the instance. This will stop and start the instance and move it to another host.
+----------------------------------------------------------------------------------------
+Q23. You have several on-premise servers and would like to store your offsite backups on AWS. What fully managed backup service can you use to ship your backups to AWS?
+ Windows Server 2016 supports S3 as a target when using storage replicas.
+ Use Storage Gateway.  X
+ Sync files directly to S3 with the AWS CLI.
+ Use the RDS console to force a reboot of the database instance so that the primary server becomes the master server again.
+----------------------------------------------------------------------------------------
+Q24. What is the best practice for creating a highly available PostgreSQL database in RDS that can sustain the loss of a single AWS region?
+ PostgreSQL cannot be replicated across regions. Restore the database backups from an S3 bucket and repoint your database connections to the new instance.
+ Create Read Replicas in other AWS regions. You can designate a new master database from any of the read replicas until the regional failure is resolved.
+ Verify that your instance is configured for Multi-AZ support. Database changes will be automatically synced to another region in the event of a failure and RDS will automatically select a new master until the regional failure is resolved.
+ Create Read Replicas in other AWS regions. Ensure read operations against the database occur on an available Read Replica, and send write operations to another region if you need to promote a Read Replica to a standalone database if the master is down.   X
+----------------------------------------------------------------------------------------
+Q25. What does a VPC do?
+ creates a cloud-based network to interconnect a set of virtual servers and appliances  X
+ creates a secure tunnel between two networks
+ creates a shared storage plane for application data to be shared across multiple instances.
+ creates a private network that is completely isolated from the public internet.
+----------------------------------------------------------------------------------------
+Q26. Can you lose the public IP address associated with your EC2 instance?
+ Yes, you can lose it if you reboot the instance.
+ Yes, you can lose it if you stop and start the instance.  X
+ No, you will never lose the public IP address for your instance.
+ Yes, you can lose it when you edit the instance properties and release the IP address.
+----------------------------------------------------------------------------------------
+Q27. Where is the best place to store database backups on an EC2 instance that is configured as a database server?
+ an S3 bucket, synced with the database backups via a script that calls the AWS CLI
+ EBS volume attached to the instance  X
+ instance attached to the instance
+ instance storage, with a script that replicates the database backups to another instance in a different availability zone.
+----------------------------------------------------------------------------------------
+Q28. Which of these is a valid restriction on the properties of a VPC?
+ You can have only 10 internet gateways per region on a new AWS account.
+ You can have only 10 VPCs per region on a new AWS account
+ You cannot create a CIDR block with a netmask larger than /16  X
+ You can have only 10 subnets within a VPC
+----------------------------------------------------------------------------------------
+Q29. As your web application grows and your application monitoring needs become more complex, which additional log monitoring service should you NOT consider?
+ ELK stack: Elasticsearch, Loggly, and Kibana
+ PRTG  X
+ New Relic
+ Datadog
+----------------------------------------------------------------------------------------
+Q30. In addition to CloudFormation, you can use other orchestration tools to automate server formation and maintenance. Which tool is not an efficient choice for the orchestration of a large infrastructure?
+ Chef
+ Ansible
+ Puppet
+ Vagrant  X
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------

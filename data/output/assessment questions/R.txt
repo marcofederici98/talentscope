@@ -1,0 +1,222 @@
+----------------------------------------------------------------------------------------
+Q1. How does a matrix differ from a data frame?
+ A matrix may contain numeric values only.
+ A matrix must not be singular.
+ A data frame may contain variables that have different modes. X
+ A data frame may contain variables of different lengths.
+----------------------------------------------------------------------------------------
+Q2. What value does this statement return?
+unclass(as.Date("1971-01-01"))
+
+ 1
+ 365  X
+ 4
+ 12
+----------------------------------------------------------------------------------------
+Q3. What do you use to take an object such as a data frame out of the workspace?
+ remove()  X
+ erase()
+ detach()
+ delete()
+----------------------------------------------------------------------------------------
+Q4. Review the following code. What is the result of line 3?
+xvect<-c(1,2,3)
+xvect[2] <- "2"
+xvect
+ [1] 1 2 3
+ [1] "1" 2 "3"
+ [1] "1" "2" "3" X
+ [1] 7 9
+----------------------------------------------------------------------------------------
+Q5. The variable height is a numeric vector in the code below. Which statement returns the value 35?
+ height(length(height))
+ height[length(height)]  X
+ height[length[height]]
+ height(5)
+----------------------------------------------------------------------------------------
+Q6. Which choice does R regard as an acceptable name for a variable?
+ Var_A!
+ \_VarA
+ .2Var_A
+ Var2_A   X
+----------------------------------------------------------------------------------------
+Q7. What is the principal difference between an array and a matrix?
+ A matrix has two dimensions, while an array can have three or more dimensions.  X
+ An array is a subtype of the data frame, while a matrix is a separate type entirely.
+ A matrix can have columns of different lengths, but an array's columns must all be the same length.
+ A matrix may contain numeric values only, while an array can mix different types of values.
+----------------------------------------------------------------------------------------
+Q8. Which is not a property of lists and vectors?
+ type
+ length
+ attributes
+ scalar  X
+----------------------------------------------------------------------------------------
+Q9. Which function displays the first five rows of the data frame named pizza?
+ BOF(pizza, 5)
+ first(pizza, 5)
+ top(pizza, 5)
+ head(pizza, 5)  X
+----------------------------------------------------------------------------------------
+Q10. You accidentally display a large data frame on the R console, losing all the statements you entered during the current session. What is the best way to get the prior 25 statements back?
+ console(-25)
+ console(reverse=TRUE)
+ history()
+ history(max.show = 25)  X
+----------------------------------------------------------------------------------------
+Q11. d.pizza is a data frame. It's a column named temperature contains only numbers. If you extract temperature using the [] accessors, its class defaults to numeric. How can you access temperature so that it retains the class of data.frame?
+> class( d.pizza[ , "temperature" ] )
+> "numeric"
+ class( d.pizza( , "temperature" ) )
+ class( d.pizza[ , "temperature" ] )
+ class( d.pizza$temperature )
+ class( d.pizza[ , "temperature", drop=F ] ) X
+----------------------------------------------------------------------------------------
+Q12. What does c contain?
+a <- c(3,3,6.5,8)
+b <- c(7,2,5.5,10)
+c <- a < b
+ [1] NaN
+ [1] -4
+ [1] 4 -1 -1 2
+ [1] TRUE FALSE FALSE TRUE  X
+----------------------------------------------------------------------------------------
+Q13. Review the statements below. Does the use of the dim function change the class of y, and if so what is y's new class?
+> y <- 1:9
+> dim(y) <- c(3,3)
+ No, y's new class is "array".
+ Yes, y's new class is "matrix".  X
+ No, y's new class is "vector".
+ Yes, y's new class is "integer".
+----------------------------------------------------------------------------------------
+Q14. What is mydf$y in this code?
+mydf <- data.frame(x=1:3, y=c("a","b","c"), stringAsFactors=FALSE)
+
+ list
+ string
+ factor
+ character vector  X
+----------------------------------------------------------------------------------------
+Q15. How does a vector differ from a list?
+ Vectors are used only for numeric data, while lists are useful for both numeric and string data.
+ Vectors and lists are the same thing and can be used interchangeably.
+ A vector contains items of a single data type, while a list can contain items of different data types. X
+ Vectors are like arrays, while lists are like data frames.
+----------------------------------------------------------------------------------------
+Q16. What statement shows the objects on your workspace?
+ list.objects()
+ print.objects()
+ getws()
+ ls() X
+----------------------------------------------------------------------------------------
+Q17. What function joins two or more column vectors to form a data frame?
+ rbind()
+ cbind()  X
+ bind()
+ coerce()
+----------------------------------------------------------------------------------------
+Q18. What is the value of y in this code?
+x <- NA
+y <- x/1
+
+ Inf
+ Null
+ NaN
+ NA  X
+----------------------------------------------------------------------------------------
+Q19. Two variable in the mydata data frame are named Var1 and Var2. How do you tell a bivariate function, such as cor.test, which two variables you want to analyze?
+ cor.test(Var1 ~ Var2)
+ cor.test(mydata$(Var1,Var2))
+ cor.test(mydata$Var1,mydata$Var2)  X
+ cor.test(Var1,Var2, mydata)
+----------------------------------------------------------------------------------------
+Q20. A data frame named d.pizza is part of the DescTools package. A statement is missing from the following R code and an error is therefore likely to occur. Which statement is missing?
+library(DescTools)
+deliver <- aggregate(count,by=list(area,driver), FUN=mean)
+print(deliver)
+ attach(d.pizza)  X
+ summarize(deliver)
+ mean <- rbind(d.pizza,count)
+ deliver[!complete.cases(deliver),]
+----------------------------------------------------------------------------------------
+Q21. What is the value of names(v[4])?
+v <- 1:3
+names(v) <- c("a", "b", "c")
+v[4] <- 4
+
+ "" X
+ d
+ NULL
+ NA
+----------------------------------------------------------------------------------------
+Q22. Which of the following statements doesn't yield the code output below. Review the following code. What is the result of line 3?
+x <- c(1, 2, 3, 4)
+Output: [1] 2 3 4
+ x[c(2, 3, 4)]
+ x[-1]
+ x[c(-1, 0, 0, 0)]
+ x[c(-1, 2, 3, 4)]  X
+----------------------------------------------------------------------------------------
+Q23. What does R return in response to the final statement?
+x<-5:8
+names(x)<-letters[5:8]
+x
+ e f g h "5" "6" "7" "8"
+ 5 6 7 8
+ e f g h
+ e f g h 5 6 7 8   X
+----------------------------------------------------------------------------------------
+Q24. How do you return "October" from x in this code?
+x<-as.Date("2018-10-01")
+ attr()
+ months(x) X
+ as.month(x)
+ month(x)
+----------------------------------------------------------------------------------------
+Q25. What does R return?
+StartDate<- as.Date("2020/2/28")
+StopDate<- as.Date("2020/3/1")
+StopDate-StartDate
+
+ "1970-01-02"
+ time difference of one day
+ time difference of two days  X
+ error in x-y: nonnumeric argument to binary operator
+----------------------------------------------------------------------------------------
+Q26. Which function in R combines different values into a single object?
+ connect()
+ concat()
+ contact()
+ c()  X
+----------------------------------------------------------------------------------------
+Q27. Which file contains settings that R uses for all users of a given installation of R?
+ Rdefaults.site
+ Renviron.site
+ Rprofile.site X
+ Rstatus.site
+----------------------------------------------------------------------------------------
+Q28. A list can contain a list as an element. MyList has five columns, and the third column's item is a list of three items. How do you put all seven values in MyList into a single vector?
+ vector(MyList, length = 7)
+ coerce(MyList, nrows = 1)
+ unlist(MyList) X
+ coerce(MyList, nrows = 7)
+----------------------------------------------------------------------------------------
+Q29. Which strings could be returned by the function ls(path = "^V")?
+ ANOVAData, anovadata
+ VisitPCA, VarX  X
+ VisitPCA, varx
+ Xvar, Yvar
+----------------------------------------------------------------------------------------
+Q30. Which statement enables you to interactively open a single file?
+ file.list()
+ file.select()
+ file.choose()
+ file.open()  X
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+

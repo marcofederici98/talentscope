@@ -1,0 +1,245 @@
+Q6. Which command allows you to do packet analysis from the command line?
+
+- [ ] wireshark
+- [ ] ethtool
+- [ ] netstat
+- [x] tcpdump
+
+Q7. Which command will tell you how long a system has been running?
+
+- [ ] log
+- [x] uptime
+- [ ] runtime
+- [ ] access
+
+Q8. How would you describe PCP (Performance Co-Pilot)?
+
+- [ ] It is an application testing suite used to profile programming code.
+- [ ] It is a local command used for monitoring local system resources in real time.
+- [x] It is a set of tools, services, and libraries for gathering and analyzing performance measures.
+- [ ] It is a tool designed to change system configuration for purposes of optimization.
+
+Q11. Which command in Bash executes the last line in the shell history that starts with ls?
+
+- [ ] !
+- [ ] !!
+- [ ] !\*
+- [x] !ls
+
+Q13. What command is used to determine the amount of disk usage for a directory?
+
+- [ ] find
+- [ ] fdisk
+- [x] du
+- [ ] df
+
+Q15. What is the key difference between a redirect (>) and piping to the tee command?
+
+- [ ] The tee command sends output only to STDOUT and STDERR.
+- [ ] A redirect sends output to STDOUT and a file, whereas a tee sends output only to STDOUT.
+- [ ] Nothing, they are the same.
+- [x] The tee command sends output to STDOUT and a file, whereas a redirect sends output only to a file.
+
+Q18. What would this sed command do?
+
+```bash
+sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
+```
+
+- [ ] It would substitute the letter with an ampersand (&).
+- [ ] It would replace all letters in the textfile.txt file with ampersand (&).
+- [ ] It would replace the first four letters with an ampersand (&).
+- [x] It would place parentheses around the first four letters of each line of textfile.txt.
+
+Q20. What character class is equal to this set?
+
+`[0-9]`
+
+- [ ] `[[:alnum:]]`
+- [x] `[[:digit:]]`
+- [ ] `[[:alpha:]]`
+- [ ] `[[:num:]]`
+
+Q25. ifconfig has been deprecated. What command is now recommended for changing IP addresses in the live config?
+
+- [ ] netconf
+- [ ] ipconfig
+- [ ] ipman
+- [x] ip
+
+Q30. When a user deletes a file using the rm command, Linux will \_.
+
+- [ ] always ask for confirmation
+- [ ] back up the file before it deletes the file
+- [x] ask for confirmation if configured to do so
+- [ ] never ask for confirmation
+
+Q38. What is the /etc/hosts file used for?
+
+- [ ] resolving the local name
+- [ ] blocking sites using iptables
+- [ ] setting the hostname
+- [x] configuring DNS name servers
+
+Q42. To search from the current cursor position up to the beginning of the file using VIM, type \_ and then the search criteria.
+
+- [x] `?`
+- [ ] `\`
+- [ ] `/`
+- [ ] `/search`
+
+Q44. Why might would you use the usermod command?
+
+- [ ] to log out a user
+- [ ] to lock a user's account
+- [x] to change global user account settings
+- [ ] to set a user's password
+
+Q50. You can set Linux group passwords using which command?
+
+- [x] gpasswd
+- [ ] passwd
+- [ ] editsam
+- [ ] grouppass
+
+#### Q51. With most GNU commands, if an option is a word, what will it be preceded by?
+
+- [x] two dashes
+- [ ] a backslash
+- [ ] one dash
+- [ ] nothing
+
+Q53. To elevate privileges using the `sudo` command, a user must **\_**.
+
+- [ ] enter the root user's password
+- [x] enter their own password
+- [ ] enter the sudo user's password
+- [ ] change to the root group
+
+Q62. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
+
+- [ ] a facility and an action
+- [x] a filter and an action
+- [ ] a facility and a priority
+- [ ] a filter and a priority
+
+Q67. What is the command to create an associative array in Bash?
+
+- [ ] declare -a
+- [ ] aarray
+- [ ] array -a
+- [x] declare -A
+
+Q72. To run CGI scripts with Apache, you need to **\_**.
+
+- [ ] compile the script with a CGI compiler
+- [ ] make the script executable
+- [x] make the script executable and set the `httpd_enable_cgi` SELinux boolean
+- [ ] change the ownership of the script to Apache
+
+Q74. What is the difference between using `=` and `==` in a BASH double square bracket `if` conditional?
+
+```bash
+if [[ $FILE == $GLOB ]] ;then
+
+```
+
+- [ ] The single equal sign (`=`) is an assignment operator; the double equal sign (`==`) checks equality.
+- [x] There is no difference.
+- [ ] The single equal sign (`=`) checks equality; the double equal sign (`==`) checks string equality.
+- [ ] The double equal sign (`==`) is an assignment operator; the single equal sign (`=`) checks equality.
+
+Q76. What is the purpose of a Mail Transport Agent (MTA)?
+
+- [ ] It transports the mail from user's computer to the mail server.
+- [ ] It accepts mail and adds it to the mail queue for further processing.
+- [ ] It stores the mail in a mail queue waiting for the MUA to download it.
+- [x] It transports mail from one mail server to another.
+
+Q79. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
+
+- [ ] EREs can match the groups.
+- [ ] EREs support occurrence operators.
+- [ ] ERE's support alternation.
+- [x] only the syntax differs.
+
+Q81. What would be in out.txt?
+
+```shell
+cat < in.txt > out.txt
+```
+
+- [x] the content of in.txt.
+- [ ] the output from the command line.
+- [ ] Nothing, because you cannot redirect from a file (in.txt) to another file (out.txt). You can redirect only from a command to a file.
+- [ ] Nothing, The redirect will create a new empty file, but there will not be any output from the cat command to redirect.
+
+Q87. The object that `systemd` uses to manage services is called a \_ file.
+
+- [x] unit
+- [ ] service
+- [ ] single
+- [ ] process
+
+#### Q88. What tool should you use to replace a physical volume in LVM?
+
+- [ ] cp
+- [x] pvmove
+- [ ] tar
+- [ ] lvcopy
+
+Q91. Which variable contains last background job process id?
+
+- [x] `$!`
+- [ ] `$$`
+- [ ] `$?`
+- [ ] `$*`
+
+Q94. What is a maximum length for a filename under Linux?
+
+- [ ] 256 bytes
+- [ ] 1084 bytes
+- [x] 255 bytes
+- [ ] 1023 bytes
+
+#### Q95. Which command do you use to rename a file in Linux?
+
+- [x] mv
+- [ ] rn
+- [ ] rename
+- [ ] ren
+
+Q99. Which command shows the free disk space on one or more Linux filesystems?
+
+- [ ] ls
+- [ ] cd
+- [ ] du
+- [x] df
+
+Q103. Given an IP address of 199.83.131.0 and a subnet mask of 255.255.255.0, what is the broadcast address?
+
+- [ ] 199.83.131.1
+- [ ] 10 Downing Street
+- [ ] 199.83.131.0
+- [x] 199.83.131.255
+
+#### Q104. Which Linux command shows a list of processes associated with the current user and the current terminal?
+
+- [x] ps
+- [ ] ls
+- [ ] pidof
+- [ ] ps -e
+
+#### Q105. In a shell script, to create an infinite while loop, make the condition always return true by using the **\_** command for the while loop condition.
+
+- [ ] return
+- [ ] continue
+- [x] true
+- [ ] always
+
+#### Q106. In Linux, which option is used with the uname command to print the processor architecture name?
+
+- [x] -p
+- [ ] -arch
+- [ ] -ps
+- [ ] -pname

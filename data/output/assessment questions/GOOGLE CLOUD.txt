@@ -1,0 +1,217 @@
+Q2. You want to set up a managed Apache Spark cluster. Which service do you configure?
+
+- [ ] Cloud Dataprep
+- [ ] Cloud Composer
+- [ ] Cloud Dataflow
+- [x] Cloud Dataproc
+
+Q5. You are designing an application that will send messages with the MQTT protocol. What service should you use?
+
+- [ ] BigQuery
+- [x] Cloud Pub/Sub
+- [ ] IoT Broker
+- [ ] Bigtable
+
+Q8. You want to try out a machine-learning TensorFlow example notebook with the fewest configuration steps on GCP. What do you do?
+
+- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use GPU.
+- [x] Create a notebook instance with TPU. Upload the notebook to the instance.
+- [ ] Create a notebook instance with GPU. Upload the notebook to the instance.
+- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use TPU.
+
+Q10. To be able to configure an existing Cloud Function, what information should you review and from which location?
+
+- [ ] execution time in Cloud Storage logs
+- [ ] execution time in Stackdriver logs
+- [x] text payload in Stackdriver logs
+- [ ] text payload in Cloud Storage logs
+
+Q12. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
+
+- [ ] Enable Requester Pays on the project.
+- [x] Enable Requester Pays on the bucket.
+- [ ] Change the default storage class from multi-regional to regional.
+- [ ] Change the default storage class from regional to multi-regional.
+
+Q14. You want to configure services to be able to perform a regular interactive query of Google AdWords data. What should you do?
+
+- [ ] Plan to use BigQuery. Create a BigQuery data set to hold the data.
+- [ ] Plan to use Cloud SQL. Enable Cloud SQL Transfer Data API.
+- [ ] Plan to use Cloud SQL. Create a Cloud SQL Database to hold the data.
+- [x] Plan to user BigQuery. Enable BigQuery Transfer Data API.
+
+#### Q15. You want to use GCP-preferred base container images. Where can your users find these images?
+
+- [ ] Docker Hub
+- [ ] Compute Engine base images
+- [x] GCP Marketplace
+- [ ] Google Kubernetes Engine base images
+
+Q17. Cloud SQL supports which two relational databases?
+
+- [ ] Redis and Oracle
+- [ ] MySQL and Oracle
+- [ ] Redis and PostgreSQL
+- [x] MySQL and PostgreSQL
+
+#### Q18. You want to quickly test a single Docker container image that will start a stateless HTTP service on GCP. Which service do you select to host your container image?
+
+- [x] Cloud Run
+- [ ] Cloud Run on Google Kubernetes Engine
+- [ ] Cloud Functions
+- [ ] Google Kubernetes Engine
+
+Q23. You want to capture the message acknowledgment state of a subscription at a given time. What do you do?
+
+- [ ] Create a Cloud Pub/Sub subscription backup.
+- [ ] Create a Cloud Pub/Sub subscription topic.
+- [x] Create a Cloud Pub/Sub subscription snapshot.
+- [ ] Create a Cloud Pub/Sub subscription.
+
+Q26. Which command adds a column family named `cf1` to your Bigtable table named `my-table`?
+
+- [ ] `cbt createfamily cf1 my-table`
+- [x] `cbt createfamily my-table cf1`
+- [ ] `gcloud createfamily cf1 my-table cf1`
+- [ ] `gcloud createfamily my-table cf1`
+
+Q30. You need to create instances with identical configurations that cannot be changed. Which Compute Engine feature do yo use?
+
+- [x] instance templates
+- [ ] instance groups
+- [ ] snapshots
+- [ ] instances
+
+#### Q31. You want to automatically perform security scans on user-developed containers. Where should you advise your users to host their containers?
+
+- [x] Google Container Registry
+- [ ] GitLab
+- [ ] Artifactory
+- [ ] Docker Hub
+
+Q34. What is needed to access GCP APIs in your project?
+
+- [ ] GCP VMs
+- [ ] GCP buckets
+- [ ] GCP credentials
+- [x] GCP users
+
+Q38. You need to set a WordPress site with high availability on GCP using the fewest steps. What do you do?
+
+- [ ] Configure and launch the WordPress HA deployment template from the GCP Marketplace.
+- [ ] Configure and launch the WordPress HA deployment template from the WordPress Marketplace.
+- [x] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
+- [ ] Create, configure, and launch a WordPress HA deployment template on Google Kubernetes Engine.
+
+Q41. You want to encrypt a Compute Engine. What do you need to do?
+
+- [x] Nothing. Images are encrypted by default with a Google-managed key.
+- [ ] Nothing. Images are encrypted by default with a customer-managed key.
+- [ ] Associate you image with a customer-managed key to encrypt it.
+- [ ] Associate you image with a Google-managed key to encrypt it.
+
+Q44. You are designing a GCP replacement for your on-premises data warehouse. Which service do you select?
+
+- [ ] Cloud SQL
+- [ ] Bigtable
+- [ ] Cloud Spanner
+- [x] BigQuery
+
+#### Q45. How can you quickly back up a persistent disk on Compute Engine?
+
+- [x] Take a snapshot
+- [ ] Create an instance group
+- [ ] Create an instance template
+- [ ] Create an image
+
+ Q53. Which container(s) does Google Kubernetes Engine support?
+
+- [ ] Docker or Singularity
+- [ ] Docker, Singularity, or containerd
+- [ ] Singularity only
+- [x] Docker only
+
+Q57. Which combination of Stackdriver services will alert you about errors generated by your applications and help you locate the root cause in the code?
+
+- [x] Google Cloud Platform, Amazon Web Services
+- [ ] Google Cloud Platform, Microsoft Azure, Amazon Web Services
+- [ ] Google Cloud Platform, Microsoft Azure
+- [ ] Google Cloud Platform
+
+Q61. In Google Kubernetes Engine, "**\_**" is a term Kubernetes uses to represent pods and controllers.
+
+- [ ] masters
+- [ ] pools
+- [x] workloads
+- [ ] nodes
+
+Q63. To effectively manage the limited number of IP addresses per node, how many IP addresses per pod does Google recommend?
+
+- [ ] One IP address per pod
+- [ ] Three IP addresses per pod
+- [ ] Four IP addresses per pod
+- [x] Two IP addresses per pod
+
+Q67. Builders in Cloud Build are
+
+- [ ] part of Google's proprietary infrastructure
+- [ ] created from Managed Instance Templates
+- [x] containers with pre-loaded tools and runtimes
+- [ ] virtual machines with pre-loaded tools and runtimes
+
+Q74. Which category of GCP audit log records every incident in which a user or service account is denied access to a resource?
+
+- [ ] System Event
+- [x] Policy Denied
+- [ ] Admin Activity
+- [ ] Data Access
+
+Q71. Which option will allow you to review latency data from App Engine Apps?
+
+- [ ] App Engine Latency
+- [x] Stackdriver Trace
+- [ ] App Engine Data Viewer
+- [ ] Stackdriver Latency
+
+Q73. Google Cloud services maintain **\_** that record all activity and access to your GCP resources.
+
+- [ ] configuration files
+- [ ] maintenance scripts
+- [ ] analytics logs
+- [x] audit logs
+
+Q68. Which of the following statements about security in the Google Cloud Platform deployment pipeline is false?
+
+- [x] It is pretty standard for developers and QA engineers to be allowed to create new clusters, but not allowed to deploy containers to certain existing clusters.
+- [ ] Each employee's access to Google Cloud resources should be based upon what they require to do their job.
+- [ ] The exact permissions will vary based upon the needs of the company, and depends upon the number of roles, steps, and environments that exist.
+- [ ] Each employee's access to Google Cloud resources should be based on the principle of least privilege.
+
+#### Q69. In order to create and store a key in Google Cloud Platform, you must first create a **\_** to hold the key.
+
+- [ ] wallet
+- [x] keyring
+- [ ] policy
+- [ ] keychain
+
+#### Q70. David is the cloud admin for Blue Widget Corp. He has deployed a Linux VM called Linux01, and he needs to SSH to it from the console. Which command should David use to SSH to the VM?
+
+- [ ] gcloud ssh --project blue-widget-project --zone us-central1-a Linux01
+- [ ] gcloud compute ssh -project blue-widget-project -zone us-central1-a Linux01
+- [ ] gcloud connect ssh --project blue-widget-project --zone us-central1-a Linux01
+- [x] gcloud compute ssh --project blue-widget-project --zone us-central1-a Linux01
+
+ Q59. If you have configured Stackdriver Logging to export logs to BigQuery, but logs entries are not getting exported to BigQuery, what is the most likely cause?
+
+- [ ] Monitoring, Trace, and Debugger
+- [ ] Monitoring and Error Reporting
+- [ ] Alerts and Debugger
+- [x] Debugger and Error Reporting
+
+#### Q60. You can use Stackdriver to monitor virtual machines on which cloud platforms?
+
+- [x] Use Cloud Monitoring and create an uptime check.
+- [ ] Use Cloud Monitoring and install the Monitoring Agent on the instance running the apache server.
+- [ ] Use Cloud Monitoring and install the Ops Agent on the instance running the apache server.
+- [ ] Use Cloud Profiler and create an alert.
+

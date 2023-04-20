@@ -1,0 +1,813 @@
+## HTML
+
+
+
+#### Q1. Where do `<header>` and `<footer>` tags typically occur?
+
+- [ ] as children of `<body>, <article>, <aside>, and <section>` tags
+- [x] as children of `<body>, <article>, and <section>` tags
+- [ ] as children of `<body>, <article>, <aside>, <nav>, and <section>` tags
+- [ ] as children of `<body>, <article>, <table>, and <section>` tags
+
+#### Q2. What is the best way to apply bold styling to text?
+
+- [x] `<strong>`
+- [ ] Use CSS.
+- [ ] `<bold>`
+- [ ] `<b>`
+
+#### Q3. When is the `<link>` tag used?
+
+- [ ] when linking style sheets, JavaScript, and icons for mobile apps
+- [x] when linking style sheets, favicons, and preloading assets
+- [ ] when linking one webpage to another
+- [ ] when linking style sheets, external URLs, and favicons
+
+
+#### Q4. When should you use the `<aside>` element?
+
+- [x] when the content can be removed without detracting from the page's message
+- [ ] for anything you want to move to the side, like a pull quote box, a sidebar, or an image with text wrapping around it
+- [ ] for anything in parentheses
+- [ ] for anything in a sidebar
+
+#### Q5. With which tags is the `<source>` element associated?
+
+- [ ] `<svg>, <picture>, <audio>, and <video>`
+- [x] `<picture>, <audio>, and <video>`
+- [ ] It is interchangeable with the `src` attribute, so any element which uses `src` may use `<source>`
+- [ ] `<audio> and <video>`
+
+
+#### Q6. What is the purpose of the `<samp>` element?
+
+- [ ] It connects the web browser to a SA-MP server.
+- [ ] It identifies enclosed text as a sampler or an example.
+- [x] It identifies sample output from a computer program.
+- [ ] It uses a simple application messaging protocol to connect the browser to a texting device.
+
+#### Q7. When should you use `<ol>` and `<ul>` elements?
+
+- [x] Use `<ul>` when you want a bulleted list and `<ol>` when you want a numbered list.
+- [ ] Use `<ul>` when you have a list of items in which the order of the items matters. Use `<ol>` when you have a list of items that could go in any order.
+- [ ] Use `<ol>` when you want a bulleted list and `<ul>` when you want a numbered list.
+- [ ] Use `<ol>` when you have a list of items in which the order of the items matters. Use `<ul>` when you have a list of items that could go in any order.
+
+#### Q8. What is the difference between the post and get methods in a form?
+
+- [ ] post is used for sending information to the server. get is used for retrieving form information from the server.
+- [ ] get is used for sending information to the server. post is used for retrieving form information from the server.
+- [ ] With get, data is included in the form body when send to the server. With post, the data goes through the URL.
+- [x] With post, data is included in the form body when send to the server. With get, the data goes through the URL.
+
+#### Q9. What is the difference between the `<div>` and `<span>` tags?
+
+- [x] `<div>` is used where a generic block-level tag is needed, while `<span>` is used where a generic inline tag is needed.
+- [ ] `<div>` is used for major divisions on a page, while `<span>` is used to span across columns.
+- [ ] `<div>` is the industry-standard default tag, but you could use `<span>` if you prefer.
+- [ ] `<div>` is used where a generic inline tag is needed, while `<span>` is used where a generic block-level tag is needed.
+
+#### Q10. In the code below, what is the purpose of the **id** attribute?
+
+```html
+<p id="warning">Be careful when installing this product.</p>
+```
+
+- [x] It establishes that id is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
+- [ ] It establishes that id is a unique identifier in the document, used for styling CSS and with Javascript code.
+- [ ] It establishes that id may be used for styling CSS several times per page.
+- [ ] It establishes that id is a unique identifier in the website, used for styling CSS, scripting, and linking within a webpage.
+
+#### Q11. What is the best semantic markup for the sentence shown?
+
+```
+On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap for mankind."
+```
+
+- [x] A
+
+```html
+<p>
+  On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >One small step for man, one giant leap for mankind.</q
+  >
+</p>
+```
+
+- [ ] B
+
+```html
+<p>
+  On July 21, 1969, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >"One small step for man, one giant leap for mankind."</q
+  >
+</p>
+```
+
+- [ ] C
+
+```html
+<p>
+  On July 21, 1969, Neil Armstrong said,
+  <q>"One small step for man, one giant leap for mankind."</q>
+</p>
+```
+
+- [ ] D
+
+```html
+<p>
+  On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >One small step for man, one giant leap for mankind.</q
+  >
+</p>
+```
+
+#### Q12. Review the text in the red box in the image shown. What is the best way to code this in HTML?
+
+![Image of footer](images/ss-3.png?raw=true)
+
+- [ ] ordered list
+- [x] unordered list inside a nav element
+- [ ] ordered list inside a nav element
+- [ ] unordered list
+
+#### Q13. What is the best way to code three choices within a form so that the user can select only one item?
+
+- [ ] A
+
+```html
+<label for="example">Make a choice:</label>
+<datalist id="example">
+  <option value="Choice 1"></option>
+  <option value="Choice 2"></option>
+  <option value="Choice 3"></option>
+</datalist>
+```
+
+- [ ] B
+
+```html
+<p>Make a choice:</p>
+<input id="choices" name="example" />
+
+<datalist value="choices">
+  <option value="Choice 1"></option>
+  <option value="Choice 2"></option>
+  <option value="Choice 3"></option>
+</datalist>
+```
+
+- [ ] C
+
+```html
+<label for="example">Make a choice:</label>
+<input list="example" id="choices" name="choices" />
+
+<datalist id="choices">
+  <option value="Choice 1">Choice 1</option>
+  <option value="Choice 2">Choice 2</option>
+  <option value="Choice 3">Choice 3</option>
+</datalist>
+```
+
+- [x] D
+
+```html
+<label for="example">Make a choice:</label>
+<input list="choices" id="example" name="example" />
+
+<datalist id="choices">
+  <option value="Choice 1"></option>
+  <option value="Choice 2"></option>
+  <option value="Choice 3"></option>
+</datalist>
+```
+
+#### Q14. How do you confirm that a document is written in HTML5?
+
+- [ ] The server wraps the webpage in an HTML5 wrapper.
+- [x] Use the `<!DOCTYPE html>` declaration that starts the document.
+- [ ] The browser receives encoding from the server to display the document with HTML5.
+- [ ] It is enclosed in a `<html>` tag.
+
+#### Q15. What does the code shown below accomplish?
+
+```html
+<picture>
+  <source srcset="image1.jpg" media="(min-width: 1000px)" />
+  <source srcset="image2.jpg" media="(min-width: 750px)" />
+  <img src="image3.jpg" />
+</picture>
+```
+
+- [x] It displays image1.jpg at 1000px and higher, image2.jpg at 750-999px, and image3.jpg at 749px and lower.
+- [ ] It displays image1.jps at 1000px and higher and image2.jpg at 750-999px, image3.jpg is a default in case `<picture>` is not supported.
+- [ ] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
+- [ ] It displays image1.jpg, image2.jpg and image3.jpg at 1000px and higher.
+
+[Source: HTML &lt;picture> Tag](https://www.w3schools.com/tags/tag_picture.asp)
+
+#### Q16. What code will produce this table?
+
+![Table with yellow background](images/ss-4.png?raw=true)
+
+- [ ] A
+
+```html
+<table>
+  <scope cols="2" style="background-color: yellow">
+  <tr>
+    <th>Col 1</th>
+    <th>Col 2</th>
+    <th>Col 3</th>
+  </tr>
+  <tr>
+    <td>first</td>
+    <td>second</td>
+    <td>third</td>
+  </tr>
+</table>
+```
+
+- [x] B
+
+```html
+<table>
+  <colgroup span="2" style="background-color: yellow">
+  <tr>
+    <th>Col 1</th>
+    <th>Col 2</th>
+    <th>Col 3</th>
+  </tr>
+  <tr>
+    <td>first</td>
+    <td>second</td>
+    <td>third</td>
+  </tr>
+</table>
+```
+
+- [ ] C
+
+```html
+<table>
+  <group cols="2" style="background-color: yellow">
+  <tr scope="row">
+    <th>Col 1</th>
+    <th>Col 2</th>
+    <th>Col 3</th>
+  </tr>
+  <tr scope="row">
+    <td>first</td>
+    <td>second</td>
+    <td>third</td>
+  </tr>
+</table>
+```
+
+- [ ] D
+
+```html
+<table>
+  <columns colspan="2" style="background-color: yellow">
+  <tr>
+    <th>Col 1</th>
+    <th>Col 2</th>
+    <th>Col 3</th>
+  </tr>
+  <tr>
+    <td>first</td>
+    <td>second</td>
+    <td>third</td>
+  </tr>
+</table>
+```
+
+
+
+#### Q17. Which tag is the root element of an HTML document?
+
+- [ ] `<DOCTYPE html>`
+- [x] `<html>`
+- [ ] `<body>`
+- [ ] `<root>`
+
+`The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it. The html element represents the root of a document.`
+
+1. [Source](https://www.interviewbit.com/html-mcq/)
+2. [Source](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
+
+
+
+#### Q18. In the code below, what is the purpose of the **lang** attribute?
+
+```html
+<p lang="en-GB">Welcome to our wonderful website.</p>
+```
+
+- [ ] It establishes the language for the website—in this case, English.
+- [ ] It establishes the language and dialect for the website—in this case, British English.
+- [x] It establishes the language and dialect for the paragraph—in this case, British English.
+- [ ] It establishes the language for the paragraph—in this case, English.
+
+#### Q19. Which image formats can be displayed by all web browsers?
+
+- [ ] JPG, GIF, TIF
+- [ ] JPG, TIF, BMP
+- [ ] TIF, BMP, GIF
+- [x] PNG, GIF, JPG
+
+#### Q20. Review the code below. What is the absolute URL for a page called **page.html**?
+
+```html
+<base href="http://www.linkedin.com/dir/" />
+```
+
+- [x] `http://www.linkedin.com/dir/page.html`
+- [ ] `page.html`
+- [ ] `http://www.linkedin.com/page.html`
+- [ ] `dir/page.html`
+
+#### Q21. What is the correct way to include a stylesheet named **style.css** in the `<head>` of your document?
+
+- [ ] `<style link="style.css">`
+- [x] `<link rel="stylesheet" href="style.css">`
+- [ ] `<style src="style.css"></style>`
+- [ ] `<link style="style.css">`
+
+#### Q22. You want to have single spacing in between some lines, like in a poem or an address. Which approach should you use?
+
+- [ ] Wrap the text in a box that is the right width so everything wraps correctly. Set the box width with CSS.
+- [x] Separate lines with a `<p>`, then use CSS to make single spacing.
+- [ ] Use the `<pre>` tag to make the line spacing look exactly like you want.
+- [ ] Separate the lines with the `<br>` tag.
+
+
+#### Q23. What is the correct way to code a comment in HTML?
+
+- [ ] `//this is a comment`
+- [ ] `/* this is a comment */`
+- [ ] `<! this is a comment ->`
+- [x] `<!-- this is a comment -->`
+
+#### Q24. What is the difference between the `<head>` and `<header>` tags?
+
+- [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
+- [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
+- [x] all of these answers
+- [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page identifying content.
+
+#### Q25. In this code, what is the purpose of defer?
+
+`<script defer src="myscript.js"></script>`
+
+- [ ] It downloads the script from the server when resources allow.
+- [x] It runs the script after HTML parsing is complete.
+- [ ] It runs the script when the script is ready.
+- [ ] It pauses the parsing of HTML code while the script runs.
+
+#### Q26. The code below contains some errors. Which choice corrects all of the errors?
+
+```html
+<table>
+  <tr>
+    Cell 1
+  </tr>
+  <td>Cell 2</td>
+  <caption>
+    A table
+  </caption>
+</table>
+```
+
+- [ ] A
+
+```html
+<caption>
+  A table
+</caption>
+<table>
+  <td>
+    <tr>
+      Cell 1
+    </tr>
+    <tr>
+      Cell 2
+    </tr>
+  </td>
+</table>
+```
+
+- [ ] B
+
+```html
+<caption>
+  A table
+</caption>
+<table>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+</table>
+```
+
+- [x] C
+
+```html
+<table>
+  <caption>
+    A table
+  </caption>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+</table>
+```
+
+- [ ] D
+
+```html
+<table>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+  <caption>
+    A table
+  </caption>
+</table>
+```
+
+
+
+#### Q27. When should you use the `<article>` element?
+
+- [ ] For blog posts and other social media items
+- [ ] For the main content area of your website
+- [x] When the content stands alone as a unit, is suitable for syndication, or is reusable
+- [ ] To associate comments with a blog post
+
+[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+
+
+#### Q28. What is the purpose of the `class` attribute?
+
+- [ ] Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish,
+      separated by spaces.
+- [ ] Classes allow CSS and JavaScript to select specific elements on the page. You may list only one class name per class attribute.
+- [ ] Classes allow CSS to select specific elements on the page. You may list only one class name per class attribute.
+- [x] Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute
+      as you wish, separated by spaces.
+
+[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
+
+
+
+#### Q29. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
+
+As Steve Krug once said, happy talk must die.
+
+- [ ] `<p>`As Steve Krug once said, `<b>`happy talk must die.`</b>` `</p>`
+- [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
+- [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
+- [x] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+
+[Source: W3Schools](https://www.w3schools.com/tags/tag_q.asp)
+
+**`<q>` tag**
+`Most browsers will display q tags as inline elements with quotes`
+
+#### Q30. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
+
+- [ ] A
+
+```html
+<p>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</p>
+```
+
+- [ ] B
+
+```html
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+```
+
+- [ ] C
+
+```html
+<nav>
+  <ol>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ol>
+</nav>
+```
+
+- [x] D
+
+```html
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+```
+
+#### Q31 What is the primary purpose of HTML?
+
+- [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
+- [ ] HTML structures and provides a rudimentary look to webpages.
+- [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
+- [ ] HTML is responsible for the structure and styling of webpages.
+
+
+#### Qapp. In this code, what is _target_?
+
+`<a target="_blank">...</a>`
+
+- [x] an attribute
+- [ ] a tag
+- [ ] content
+- [ ] an element
+
+#### Q32. What is the correct way to add a submit URL to a `button` element?
+
+- [ ] A
+
+```html
+<button submit="http://example.com/process">Process data</button>
+```
+
+- [ ] B
+
+```html
+<button action="http://example.com/process">Process data</button>
+```
+
+- [x] C
+
+```html
+<button formaction="http://example.com/process">Process data</button>
+```
+
+- [ ] D
+
+```html
+<button method="http://example.com/process">Process data</button>
+```
+
+`formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
+
+
+
+#### Q33. What is wrong with this code?
+
+`<img src="https://source.unsplash.com/random">`
+
+- [ ] `<img>` should be paired with a `<caption>` tag.
+- [x] The `<img>` element is missing an alt attribute.
+- [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
+- [ ] `<img>` should be nested within a `<figure>` tag.
+
+#### Qapp. Which choice is the most semantically correct markup for specifying the first definition of a term?
+
+- [ ] `<p>`The `<dl>`focal length`</dl>` of a lens gives the distance from the lens to the image sensor.`</p>`
+- [x] `<p>`The `<dfn>`focal length`<dfn>` of a lens gives the distance from the lens to the image sensor.`</p>`
+- [ ] `<p>`The `<dt>`focal length`</dt>` of a lens gives the distance from the lens to the image sensor.`</p>`
+- [ ] `<p>`The `<dd>`focal length`</dd>` of a lens gives the distance from the lens to the image sensor.`</p>`
+
+**Definition** `element => The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence.`<br>`**Description Term element => The <dt> HTML element specifies a term in a description or definition list, and as such must be used inside a <dl> element.`<br>`**Description Details element =>The <dd> HTML element provides the description, definition, or value for the preceding term (<dt>) in a description list (<dl>).`
+
+
+#### Q34. Which choice is the best way to code three choices within a form so that the user can select multiple items?
+
+- [ ] :
+
+```html
+<input type="radio" name="example" /> Choice 1 <br />
+<input type="radio" name="example" /> Choice 2 <br />
+<input type="radio" name="example" /> Choice 3
+```
+
+- [x] :
+
+```html
+<input type="checkbox" name="example" /> Choice 1 <br />
+<input type="checkbox" name="example" /> Choice 2 <br />
+<input type="checkbox" name="example" /> Choice 3
+```
+
+- [ ] :
+
+```html
+<label><input type="checkbox" name="example" /> Choice 1</label><br />
+<label><input type="checkbox" name="example" /> Choice 2</label><br />
+<label><input type="checkbox" name="example" /> Choice 3</label>
+```
+
+- [ ] :
+
+```html
+<label><input type="radio" name="example" /> Choice 1</label><br />
+<label><input type="radio" name="example" /> Choice 2</label><br />
+<label><input type="radio" name="example" /> Choice 3</label>
+```
+
+`<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.`
+
+
+
+#### Q35. Which example is a standard way in HTML5 for adding author metadata to a page?
+
+- [ ] `<metadata name="author" content="Author Name">`
+- [ ] `<meta name="author">Author Name</meta>`
+- [ ] `<meta name="creator" content="Author Name">`
+- [x] `<meta name="author" content="Author Name">`
+
+
+#### Q36. Which choice is valid markup for a `<head>` element?
+
+- [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
+- [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
+- [x] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
+- [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
+
+`The <head> HTML element contains machine-readable information (metadata) about the document, like its title.The <data> tag is used to add a machine-readable translation of a given content.`
+[Source 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)/
+[Source 2](https://www.w3schools.com/tags/tag_data.asp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Q111. What is the correct HTML element for inserting a line break?
+
+- [ ] `<break>`
+- [ ] `<lb>`
+- [x] `<br>`
+- [ ] `<a>`
+
+#### Q113. HTML elements that aren't meant to store content or other elements are called **\_** elements
+
+- [x] void
+- [ ] independent
+- [ ] empty
+- [ ] paragraph
+
+[Source](https://www.w3.org/TR/2011/WD-html-markup-20110113/syntax.html#syntax-elements)
+
+
+#### Q115. Coding in HTML provides which of the following?
+
+- [ ] The responsiveness of the website
+- [ ] The style of the website
+- [x] The core website structure
+- [ ] The behavior of web elements
+
+#### Qapp. Which HTML element is the container for all the renderable aspects of the document?
+
+- [ ] head
+- [x] body
+- [ ] title
+- [ ] meta
+
+
+#### Qapp. Which is an invalid use of the `<a>` element?
+
+- [ ] A
+
+```html
+<a href="#additional-information" class="Card">
+  <video src="media.mp4" width="400" height="300"></video>
+</a>
+```
+
+- [x] B
+
+```html
+<a href="#additional-information" class="Card">
+  <details>
+    <summary>Additional Information</summary>
+  </details>
+</a>
+```
+
+- [ ] C
+
+```html
+<a href="#additional-information" class="Card">
+  <p>Additional Information</p>
+  <p></p
+></a>
+```
+
+- [ ] D
+
+```html
+<a href="#additional-information" class-"Card">
+  <img src="media.jpeg" alt="More information"></video>
+</a>
+```
+
+#### Qapp. How to display preformatted text in HTML?
+
+- [ ] `<p>`
+- [x] `<pre>`
+- [ ] `<hr>`
+- [ ] All of the above
+
+
+#### Qapp Which link contains a valid URL?
+
+- [ ] `<link rel="stylesheet" href="/styles for me/styles.css">`
+- [ ] `<link rel="stylesheet" href="/styles|for|me/styles.css">`
+- [ ] `<link rel="css" href="\styles for me\styles.css">`
+- [x] `<link rel="stylesheet" href="/styles%20for%20me/styles.css">`
+
+[Source 1](https://www.w3schools.com/tags/att_link_href.asp)
+[Source 2](https://www.sistrix.com/ask-sistrix/technical-seo/site-structure/do-i-have-to-convert-the-spaces-in-urls)
+
+#### Qapp. Which example is missing a mandatory closing tag, making it invalid?
+
+- [ ] `<p>Simple paragraph`
+- [x] `<ul><li>Simple list</li>`
+- [ ] `<ul><li>Simple list<ul>`
+- [ ] `<dl><dt>Simple term<dd>Simple description</dl>`
+
+[Source](https://blog.teamtreehouse.com/to-close-or-not-to-close-tags-in-html5)
+
+
+#### Q1hwhw. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accesible?
+
+- [x] `<aside aria-label="Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>`
+- [ ] `<custom-sidebar aria-label="Sidebar">Sidebar...</custom-sidebar><custom-footnote aria-label="Endnotes">Endnotes...</custom-footnote>`
+- [ ] `<aside role="Sidebar">Sidebar...</aside><aside role="Endnotes">Endnotes...</aside>`
+- [ ] `<aside role="complementary">Sidebar...</aside><aside role="supplementary">Endnotes...</aside>`
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+
+
+#### Q1we. Users report that a form is not working. What is the culprit?
+
+```html
+  <form action="/choices" disabled>
+    <fieldset disabled>
+      <legend>Choices</legends>
+      <label>Choice 1 <input type="radio" name="choice" value="choice1" /></label>
+      <label>Choice 2 <input type="radio" name="choice" value="choice2" /></label>
+      <label>Choice 3 <input type="radio" name="choice" value="choice3" /></label>
+      <label>Choice 4 <input type="radio" name="choice" value="choice4" /></label>
+      <button>Choose!</button>
+    </fieldset>
+  </form>
+```
+
+- [x] There is no <input type="submit"> element.
+- [ ] There is no method set on the form.
+- [ ] The form element is disabled.
+- [ ] The fieldset is disabled.
