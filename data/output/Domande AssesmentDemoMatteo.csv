@@ -1,0 +1,93 @@
+﻿Skill;Domanda;Risposta1;Risposta2;Risposta3;Risposta esatta
+Cyber;According to the shared responsibility model, which cloud computing model places the most responsibility on the cloud service provider (CSP)?;Hybrid Cloud;Platform as a Service (PaaS);Infrastructure as a Service (IaaS); Software as a Service (SaaS)
+Cyber;Which option removes the risk of multitenancy in cloud computing?;PaaS;public cloud;IaaS;private cloud
+Cyber;Which security control cannot produce an active response to a security event?;cloud access security broker (CASB);intrusion prevention system (IPS);next generation firewall;intrusion detection system (IDS)
+Cyber;Packet sniffer is also called **\_**.;SIEM;UTM;data sink;protocol analyzer
+Cyber; Which option tests code while it is in operation?;code review;code analysis;static analysis;dynamic analysis
+Cyber;Which security control can best protect against shadow IT by identifying and preventing use of unsanctioned cloud apps and services?;intrusion prevention system (IPS);next generation firewall;intrusion detection system (IDS);cloud access security broker (CASB)
+Cyber;Which option describes the best defense against collusion?;monitoring of normal employee system and data access patterns;applying system and application updates regularly;fault tolerant infrastructure and data redundancy;separation of duties and job rotation
+Cyber;You configure an encrypted USB drive for a user who needs to deliver a sensitive file at an in-person meeting. What type of encryption is typically used to encrypt the file?;file hash;asymmetric encryption;digital signature;symmetric encryption
+Cyber;What is the difference between DRP and BCP;BCP works to keep a business up and running despite a disaster. DRP works to restore the original business capabilities.;BCP is part of DRP.;DRP is part of BCP.;DRP works to keep a business up and running despite a disaster. BCP works to restore the original business capabilities.
+Cyber;Which aspect of cybersecurity do Distributed Denial of Service (DDoS) attacks affect the most?;non-repudiation;integrity;confidentiality;availability
+Hadoop;Partitioner controls the partitioning of what data?;final keys;final values;intermediate values;intermediate keys
+Hadoop;SQL Windowing functions are implemented in Hive using which keywords?;UNION DISTINCT, RANK;OVER, EXCEPT;UNION DISTINCT, RANK;OVER, RANK
+Hadoop;Hadoop Auth enforces authentication on protected resources. Once authentication has been established, it sets what type of authenticating cookie?;encrypted HTTP;unsigned HTTP;compressed HTTP;signed HTTP
+Hadoop; MapReduce jobs can be written in which language?;SQL only;SQL or Java;Python or SQL;Java or Python
+Hadoop;To perform local aggregation of the intermediate outputs, MapReduce users can optionally specify which object?;Reducer;Mapper;Counter;Combiner
+Hadoop;Hadoop Core supports which CAP capabilities?;C, A;C, P;C, A, P;A, P
+Hadoop;What are the primary phases of a Reducer?;combine, map, and reduce;reduce, sort, and combine;map, sort, and combine;shuffle, sort, and reduc
+Hadoop;For high availability, use multiple nodes of which type?;data;memory;worker;name
+Hadoop;DataNode supports which type of drives?;cold swappable;warm swappable;non-swappable;hot swappable
+Hadoop;To reference a master file for lookups during Mapping, what type of cache should be used?;local cache;partitioned cache;cluster cache;distributed cache
+Excel;Which two functions check for the presence of numerical or nonnumerical characters in cells?;ISNUMBER and ISALPHA;ISVALUE AND ISNUMBER;ISVALUE and ISTEXT;ISNUMBER and ISTEXT
+Excel;If cell A3 contains the text THE DEATH OF CHIVALRY, what will the function =PROPER(A3) return?;the death of chivalry;The death of Chivalry;THE DEATH OF CHIVALRY;The Death Of Chivalry
+Excel;Which function returns a reference to a cell (or cell range) that is a specified distance from a base cell?;VLOOKUP;INDEX;MATCH;OFFSET
+Excel;Of the four chart types listed, which works best for summarizing time-based data?;ie chart;XY scatter chart;bar chart;line chart
+Excel;You want to be able to restrict values allowed in a cell and need to create a drop-down list of values from which users can choose. Which feature should you use?;Protect Worksheet;Conditional Formatting;Allow Users to Edit Ranges;Data Validation
+Excel;To round up a value to the nearest increment of your choice, such as the next five cents, what function should you use?;MAX;ROUND;CEILING;ROUNDUP
+Excel;When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_.;mode;modulus;average;median
+Excel;For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?;OR(B3=>15,B3<=20);OR(B3>15,B3<20);AND(B3>15, B3<20);AND (B3>=15,B3<=20)
+Excel;Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?;Value Formatting;Cell Style Formatting;Tabular format;Conditional Formatting
+Excel;What does this formula do? `=Sum(Sheet1:Sheet4!D18)`;It adds data from cell D18 of Sheet1 and cell D18 of Sheet4;It adds data from cell A1 of Sheet1 and cell D18 of sheet4;It adds all data in the range A1:D18 in Sheet1, Sheet2, Sheet3 and Sheet4;It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and Sheet4
+PowerBi;What is the primary benefit of using visualizations such as line charts, bar charts, and column charts?;They are easier to create than other visualizations.;They are also used in Excel, so they feel familiar to users.;They are free to use.;They require fewer resources than more complex visualizations.
+PowerBi;The Excel function IF is nearly the same as which DAX function?;SWITCH;IF;IFX;IFS
+PowerBi;You just deleted a dashboard in the Power BI service and want to get it back. What should you do?;Select Undo from the toolbar.;You cannot undo the deletion of a dashboard.;Recover it from the Recycle Bin.;Press Ctrl+Z.
+PowerBi;You have a sales data source and want to relate the tables. The table that contains sales transactions is a _ table that contains product information is a _ table ;"dimension; fact";"lookup; data";"data; supporting";"data; lookup"
+PowerBi;One of your data columns includes the city, state, and postal code line of a mailing address. You need to separate the fields so you can access the geospatial elements for a map visualization. What transformation should you apply?;Replace values;Modify data type;Best fit geospatial;Split column
+PowerBi;What tool can you use in Power BI Desktop to reduce data?;report editor;Power Query Editor;dashboard;data modeler
+PowerBi;Which data type can be uploaded directly to powerbi.com?;Excel files;comma-separated value (CSV) files;Power BI Desktop files;all of these answers
+PowerBi;What should you do to increase the readability of a report?;Remove unnecessary field labels.;Select the most appropriate visualization.;Use borders.;all of these answers
+PowerBi;Which feature in the Power BI service is most useful when you need to create pages that present the same visualizations for different territories, salespeople, or teams?;landscape mode;none of these answers;Shrink to Fit;templates
+PowerBi;What should you use to highlight a specific visualization in a report?;Highlight;Magnify;None of the answers;Spotlight
+Linux;Which command allows you to do packet analysis from the command line?;wireshark;ethtool;netstat;tcpdump
+Linux;Which command will tell you how long a system has been running?;log;runtime;access;uptime
+Linux;How would you describe PCP (Performance Co-Pilot)?;It is an application testing suite used to profile programming code.;It is a local command used for monitoring local system resources in real time.;It is a tool designed to change system configuration for purposes of optimization.;It is a set of tools, services, and libraries for gathering and analyzing performance measures.
+Linux;Which command in Bash executes the last line in the shell history that starts with ls?;!;!!;!\*;!ls
+Linux;What command is used to determine the amount of disk usage for a directory?;find;fdisk;du;df
+Linux;What is the key difference between a redirect (>) and piping to the tee command?;The tee command sends output only to STDOUT and STDERR.;A redirect sends output to STDOUT and a file, whereas a tee sends output only to STDOUT.;Nothing, they are the same.;The tee command sends output to STDOUT and a file, whereas a redirect sends output only to a file.
+Linux; ifconfig has been deprecated. What command is now recommended for changing IP addresses in the live config?;netconf;ipconfig;ipman;ip
+Linux;When a user deletes a file using the rm command, Linux will \_.;always ask for confirmation;back up the file before it deletes the file; never ask for confirmation;ask for confirmation if configured to do so
+Linux;What is the /etc/hosts file used for?;resolving the local name;blocking sites using iptables;setting the hostname;configuring DNS name servers
+Linux;To search from the current cursor position up to the beginning of the file using VIM, type \_ and then the search criteria.;`\`;`/`;`/search`;`?`
+MongoDb;Which command adds members to the replica set from MongoDB shell?;"`replicaSetAdd(""<hostname>"")`";"`rs.insert(""<hostname>"")`";"`replica.add(""<hostname>"")`";"`rs.add(""<hostname>"")`"
+MongoDb;Which MongoDB shell command should you use to back up a database?;restore;backup;mongobackup;mongodump
+MongoDb;Which shell query displays all citizens with an age greater than or equal to 21?;`db.citizens.select('WHERE age >= 21')`;`db.citizens.where('age >= 21')`;`db.citizens.find('WHERE age >= 21')`;`db.citizens.find({age: {$gte: 21}})`
+MongoDb;What does a MongoDB collection consist of?;data;fields;rows;documents
+MongoDb;Given an ObjectId in `_id`, how do you get the time it was created?;`getDateTime(_id)`;`_id.createDate()`;`_id.getDateTime()`;`_id.getTimestamp()`
+MongoDb;Given a cursor named myCursor, which command returns a boolean value?;myCursor.sort();myCursor.next();myCursor.find();myCursor.hasNext()
+MongoDb;Which command returns a specific document in the user's collection?;`db.users.seek({_id: 1})`;`db.users.query({_id: 1})`;`db.query.users({_id: 1})`;`db.users.find({_id: 1})`
+MongoDb;To import a JSON array into Mongo, what flags are needed with MongoDBimport?; `--type jsonArray`; `--json`; `--type json`; `--jsonArray`
+MongoDb;Choose the shell command that connects to a MongoDB database.;mongod;mongoconnect;dbconnect;mongo
+MongoDb;In the MongoDB shell, how can you tell if an index was used with a query?;db.customers.find({lastName: 'smith'}).perf();db.customers.find({lastName: 'smith'}).plan();db.customers.find({lastName: 'smith'}).usedIndex();db.customers.find({lastName: 'smith'}).explain()
+Javascript;Which statement is the correct way to create a variable called rate and assign it the value 100?;rate = 100;let 100 = rate;100 = let rate;let rate = 100
+Javascript;"Which statement creates a new object using the Person constructor? Which statement creates a new Person object called ""student""?"; ar student = construct Person;var student = Person();var student = construct Person();var student = new Person()
+Javascript;"How would you reference the text 'avenue' in the code shown?
+let roadTypes = ['street', 'road', 'avenue', 'circle']";roadTypes.2;roadTypes[3];roadTypes.3;roadTypes[2]
+Javascript;"What is the result of running this statement?
+console.log(typeof 42)";float';value';integer';number'
+Javascript;Which property references the DOM object that dispatched an event?;self;object;source;target
+Javascript;Which method converts JSON data to a JavaScript object?;JSON.fromString();JSON.toObject();JSON.stringify();JSON.parse()
+Javascript;When would you use a conditional statement?;When you want to reuse a set of statements multiple times.;When you want to group data together.;When you want to loop through a group of statement.;When you want your code to choose between multiple options.
+Javascript;Which Object method returns an iterable that can be used to iterate over the properties of an object?;Object.get();Object.loop();Object.each();Object.keys()
+Javascript;Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?;"Student.parent = Person;";"Student.prototype = Person();";"Student.prototype = Person;";"Student.prototype = new Person();"
+Javascript;Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?;all of them;const;let;var
+ML;In traditional computer programming, you input commands. What do you input with machine learning?;patterns;programs ;rules;data 
+ML;What is an example of a commercial application for a machine learning system?;a data entry system;a data warehouse system;a massive data repository;a product recommendation system
+ML;How do machine learning algorithms make more precise predictions? ;The algorithms are typically run more powerful servers.;Machine learning servers can host larger databases. ;The algorithms can run on unstructured data.;The algorithms are better at seeing patterns in the data.
+ML;You work for an insurance company. Which machine learning project would add the most value for the company?;Create an artificial neural network that would host the company directory.;Create an algorithm that consolidates all of your Excel spreadsheets into one data lake. ;Use machine learning and big data to research salary requirements ;Use machine learning to better predict risk.
+ML;What is stacking?;The predictions of one model become the inputs another.;You use different versions of machine learning algorithms.;You use several machine learning algorithms to boost your results.;You stack your training set and testing set together.
+ML;Your company wants you to build an internal email text prediction model to speed up the time that employees spend writing emails. What should you do?;Include training email data from new employees.;Include training email data from seasoned employees.;Include training email data from employees who write the majority of internal emails.;Include training email data from all employees. 
+ML;Self-organizing maps are specialized neural network for which type of machine learning?;supervised learning;reinforcement learning;unsupervised learning;semi-supervised learning
+ML;In K-nearest neighbor, the closer you are to neighbor, the more likely you are to;be part of the root node;have a Euclidean connection;be part of the same cluster;share common characteristics
+ML;Naive Bayes looks at each _ predictor and creates a probability that belongs in each class. ;conditional;multiclass;binary;independent
+ML;Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?;regression analysis;unsupervised learning;high -variance modeling;ensemble modelling
+Git;How can you check your current git version? ;git --v;git --option;git –current;git --version
+Git;What command lets you create a connection between a local and remote repository?;git remote add new;git remote new origin ;git remote origin;git remote add origin
+Git;Which of the following is true you when you use the following command? git add -A ;Files are staged in alphabetical order.;All new files are staged;Only updated files are staged;All new and updated files are staged 
+Git;What option can you use to apply git configurations across your entire git environment? ;"""=--all""";"""=--master""";"""–update""";"""=--global"""
+Git;How could you squash multiple commits together without using git merge --squash? ;Caching;You can't. git merge --squash is the only git command for that operation.;Reflogging;Rebasing 
+Git;How can you display a list of files added or modified in a specific commit? ;Find the commit in the remote repository, as that's the only place that kind of information is stored. ;Access the commit stash data with git stash.;Run git commit --info with the commit hash.;Use the diff-tree command with the commit hash.
+Git;"After you make changes to a local repository, you run the following command. What will this do? git commit -a -m ""Refactor code base""";Nothing, you can't use multiple options in the same command;Adds all new files to the staging area ;Commits all new files with a message;Adds all modified files to the staging area, then commits them with a message
+Git;Where are files stored before they are committed to the local repository? ; Saved files;git documents;git cache ;Staging area 
+Git;Which of the following is true of the git push command?;By default a push doesn't send tags to the remote repository.;Commits can only be tagged when they are created.;Only annotated tags are automatically pushed to the remote repository with a commit.;Tags are pushed to the remote repository with their respective commits.
+Git;What is the best way to characterize the git commit structure? ;Data array;Data log;Data dictionary ;Data snapshot
